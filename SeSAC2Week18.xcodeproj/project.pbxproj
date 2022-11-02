@@ -14,6 +14,8 @@
 		CFF721FF29120A1E00FB0647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF721FE29120A1E00FB0647 /* Assets.xcassets */; };
 		CFF7220229120A1E00FB0647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF7220029120A1E00FB0647 /* LaunchScreen.storyboard */; };
 		CFF7220B29120A3400FB0647 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CFF7220A29120A3400FB0647 /* Alamofire */; };
+		CFF7220E29120EF900FB0647 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7220D29120EF900FB0647 /* APIService.swift */; };
+		CFF7221029121BEB00FB0647 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF7220F29121BEB00FB0647 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CFF721FE29120A1E00FB0647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFF7220129120A1E00FB0647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFF7220329120A1E00FB0647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF7220D29120EF900FB0647 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CFF7220F29121BEB00FB0647 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		CFF721F429120A1C00FB0647 /* SeSAC2Week18 */ = {
 			isa = PBXGroup;
 			children = (
+				CFF7220C29120EEA00FB0647 /* NetWork */,
 				CFF721F529120A1C00FB0647 /* AppDelegate.swift */,
 				CFF721F729120A1C00FB0647 /* SceneDelegate.swift */,
 				CFF721F929120A1C00FB0647 /* ViewController.swift */,
@@ -67,6 +72,15 @@
 				CFF7220329120A1E00FB0647 /* Info.plist */,
 			);
 			path = SeSAC2Week18;
+			sourceTree = "<group>";
+		};
+		CFF7220C29120EEA00FB0647 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				CFF7220D29120EF900FB0647 /* APIService.swift */,
+				CFF7220F29121BEB00FB0647 /* Endpoint.swift */,
+			);
+			path = NetWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +162,9 @@
 			files = (
 				CFF721FA29120A1C00FB0647 /* ViewController.swift in Sources */,
 				CFF721F629120A1C00FB0647 /* AppDelegate.swift in Sources */,
+				CFF7220E29120EF900FB0647 /* APIService.swift in Sources */,
 				CFF721F829120A1C00FB0647 /* SceneDelegate.swift in Sources */,
+				CFF7221029121BEB00FB0647 /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

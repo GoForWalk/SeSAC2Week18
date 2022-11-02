@@ -9,9 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let api = APIService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+//        api.signUp()
+//        api.login()
+        api.profile()
+        
+
     }
 
 
